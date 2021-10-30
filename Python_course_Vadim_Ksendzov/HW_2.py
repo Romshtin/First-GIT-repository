@@ -20,7 +20,6 @@ result_multi = item_1 * item_2
 print('Result_multi =', result_multi)
 #  9. Создать переменную result_exp в которой вы item_1 возводите в степень item_2.
 result_exp = item_1 ** item_2
-
 #  10. Вывести result_exp в консоль.
 print('Result_exp =', result_exp)
 #  11. Создать переменную result_m_exp в которой вы item_1 возводите в степень item_2 используя библиотеку math.

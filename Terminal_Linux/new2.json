@@ -2,5 +2,10 @@
 	"name": "Kirillov Roman Aleksandrovich",
 	"age": 25,
 	"pets": 1,
-	"desired salary": "60000 rubles"
+	"desired salary": "60000 rubles",
+	"favourite film": "Мост в Терабитию",
+	"favourite serial": "Декстер",
+	"favourite food": "Пангасиус обжаренный в муке и яйце",
+	"favourite time of year": "лето",
+	"country to visit": "Канада"
 }

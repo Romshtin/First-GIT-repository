@@ -124,6 +124,8 @@ if currency_convertor:
         currency_result = target_currency_amount / usd_byn_rate
         print(target_currency_amount, rub_item, "=", round(currency_result, 2), usd_item)
     else:
-        print('Переменная currency_convertor = ', item_3)
+        print('Unknown currency')
+else:
+    print('Переменная currency_convertor = ', item_3)
 
 

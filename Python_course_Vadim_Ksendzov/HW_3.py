@@ -100,10 +100,10 @@ currency_convertor = item_2
 #                     31.6 Сделать elif с остальными валютами
 # …
 #                     31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknown currency”)
+
 if currency_convertor:
-    currency_usd = usd_item
-    target_currency = eur_item
-    target_currency_amount = 50
+    target_currency = input('Какую валюту вы желаете поменять на доллар? (eur, uah, usd, chf, rub, byn) ')
+    target_currency_amount = float(input('Какое количество вашей национальной валюты вы хотите обменять? '))
     currency_result = 0
     if target_currency == 'eur':
         currency_result = target_currency_amount / usd_eur_rate
@@ -127,5 +127,3 @@ if currency_convertor:
         print('Unknown currency')
 else:
     print('Переменная currency_convertor = ', item_3)
-
-

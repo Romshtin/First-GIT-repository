@@ -7,6 +7,32 @@
 	"item": [
 		{
 			"name": "GET",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Protocol: http\r",
+							"// IP: 162.55.220.72\r",
+							"// Port: 5005\r",
+							"\r",
+							"// EP_1\r",
+							"// Method: GET\r",
+							"// EndPoint: /get_method\r",
+							"// request url params: \r",
+							"//  name: str\r",
+							"//  age: int\r",
+							"\r",
+							"// response: \r",
+							"// [\r",
+							"//     “Str”,\r",
+							"//     “Str”\r",
+							"// ]"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -39,6 +65,31 @@
 		},
 		{
 			"name": "POST",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// EP_2\r",
+							"// Method: POST\r",
+							"// EndPoint: /user_info_3\r",
+							"// request form data: \r",
+							"//  name: str\r",
+							"//  age: int\r",
+							"//  salary: int\r",
+							"\r",
+							"// response: \r",
+							"// {'name': name,\r",
+							"//           'age': age,\r",
+							"//           'salary': salary,\r",
+							"//           'family': {'children': [['Alex', 24], ['Kate', 12]],\r",
+							"//                      'u_salary_1_5_year': salary * 4}}\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -117,6 +168,34 @@
 		},
 		{
 			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// EP_4\r",
+							"// Method: GET\r",
+							"// EndPoint: /object_info_2\r",
+							"// request url params: \r",
+							"//  name: str\r",
+							"//  age: int\r",
+							"//  salary: int\r",
+							"\r",
+							"// response: \r",
+							"// {'start_qa_salary': salary,\r",
+							"//           'qa_salary_after_6_months': salary * 2,\r",
+							"//           'qa_salary_after_12_months': salary * 2.7,\r",
+							"//           'qa_salary_after_1.5_year': salary * 3.3,\r",
+							"//           'qa_salary_after_3.5_years': salary * 3.8,\r",
+							"//           'person': {'u_name': [user_name, salary, age],\r",
+							"//                      'u_age': age,\r",
+							"//                      'u_salary_5_years': salary * 4.2}\r",
+							"//           }"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -153,6 +232,35 @@
 		},
 		{
 			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// EP_5\r",
+							"// Method: GET\r",
+							"// EndPoint: /object_info_3\r",
+							"// request url params: \r",
+							"//  name: str\r",
+							"//  age: int\r",
+							"//  salary: int\r",
+							"\r",
+							"// response: \r",
+							"// {'name': name,\r",
+							"//           'age': age,\r",
+							"//           'salary': salary,\r",
+							"//           'family': {'children': [['Alex', 24], ['Kate', 12]],\r",
+							"//                      'pets': {'cat':{'name':'Sunny',\r",
+							"//                                      'age': 3},\r",
+							"//                               'dog':{'name':'Luky',\r",
+							"//                                      'age': 4}},\r",
+							"//                      'u_salary_1_5_year': salary * 4}\r",
+							"//           }"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -189,6 +297,28 @@
 		},
 		{
 			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// EP_6\r",
+							"// Method: GET\r",
+							"// EndPoint: /object_info_4\r",
+							"// request url params: \r",
+							"//  name: str\r",
+							"//  age: int\r",
+							"//  salary: int\r",
+							"\r",
+							"// response: \r",
+							"// {'name': name,\r",
+							"//           'age': int(age),\r",
+							"//           'salary': [salary, str(salary * 2), str(salary * 3)]}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -225,6 +355,34 @@
 		},
 		{
 			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// EP_7\r",
+							"// Method: POST\r",
+							"// EndPoint: /user_info_2\r",
+							"// request form data: \r",
+							"//  name: str\r",
+							"//  age: int\r",
+							"//  salary: int\r",
+							"\r",
+							"// response: \r",
+							"// {'start_qa_salary': salary,\r",
+							"//           'qa_salary_after_6_months': salary * 2,\r",
+							"//           'qa_salary_after_12_months': salary * 2.7,\r",
+							"//           'qa_salary_after_1.5_year': salary * 3.3,\r",
+							"//           'qa_salary_after_3.5_years': salary * 3.8,\r",
+							"//           'person': {'u_name': [user_name, salary, age],\r",
+							"//                      'u_age': age,\r",
+							"//                      'u_salary_5_years': salary * 4.2}\r",
+							"//           }"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],

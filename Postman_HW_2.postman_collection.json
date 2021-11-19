@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "6696bb72-d65d-4808-a68b-f9ecc82e38bb",
-		"name": "Postman_HW_1.2",
+		"name": "Postman_HW_2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -20,7 +20,9 @@
 							"})\r",
 							"\r",
 							"// 3. Проверить, что в body приходит правильный string. \r",
-							"\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server!\");\r",
+							"});\r",
 							""
 						],
 						"type": "text/javascript"
@@ -132,23 +134,6 @@
 					"raw": "{{url}}user_info_3",
 					"host": [
 						"{{url}}user_info_3"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						},
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						},
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						}
 					]
 				}
 			},
@@ -303,16 +288,28 @@
 							"})\r",
 							"\r",
 							"// 15. Создать в окружении переменную name\r",
+							"pm.environment.set(\"name\");\r",
+							"\r",
 							"// 16. Создать в окружении переменную age\r",
+							"pm.environment.set(\"age\");\r",
+							"\r",
 							"// 17. Создать в окружении переменную salary\r",
+							"pm.environment.set(\"salary\");\r",
+							"\r",
 							"// 18. Передать в окружение переменную name\r",
+							"pm.environment.set(\"name\", req.name)\r",
+							"\r",
 							"// 19. Передать в окружение переменную age\r",
+							"pm.environment.set(\"age\", req.age);\r",
+							"\r",
 							"// 20. Передать в окружение переменную salary\r",
+							"pm.environment.set(\"salary\", req.salary);\r",
 							"\r",
 							"// 21. Написать цикл который выведет в консоль по порядку элементы списка из параметра salary.\r",
 							"for (var i in resp.salary) {\r",
 							"    console.log(resp.salary[i])\r",
 							"}\r",
+							"\r",
 							"var i = 0\r",
 							"while(i < resp.salary.length) {\r",
 							"    console.log(resp.salary[i]);\r",
@@ -408,22 +405,22 @@
 							"\r",
 							"// 15. Проверить, что параметр qa_salary_after_6_months равен salary*2 из request (salary забрать из request.)\r",
 							"pm.test(\"Response's qa_salary_after_6_months is equal to request's salary * 2\", function () {\r",
-							"    pm.expect(resp.qa_salary_after_6_months).to.eql(+req.salary * 2);\r",
+							"    pm.expect(resp.qa_salary_after_6_months).to.eql(req.salary * 2);\r",
 							"})\r",
 							"\r",
 							"// 16. Проверить, что параметр qa_salary_after_12_months равен salary*2.7 из request (salary забрать из request.)\r",
 							"pm.test(\"Response's qa_salary_after_12_months is equal to request's salary * 2.7\", function () {\r",
-							"    pm.expect(resp.qa_salary_after_12_months).to.eql(+req.salary * 2.7);\r",
+							"    pm.expect(resp.qa_salary_after_12_months).to.eql(req.salary * 2.7);\r",
 							"})\r",
 							"\r",
 							"// 17. Проверить, что параметр qa_salary_after_1.5_year равен salary*3.3 из request (salary забрать из request.)\r",
 							"pm.test(\"Response's qa_salary_after_1.5_year is equal to request's salary * 3.3\", function () {\r",
-							"    pm.expect(resp[\"qa_salary_after_1.5_year\"]).to.eql(+req.salary * 3.3);\r",
+							"    pm.expect(resp[\"qa_salary_after_1.5_year\"]).to.eql(req.salary * 3.3);\r",
 							"})\r",
 							"\r",
 							"// 18. Проверить, что параметр qa_salary_after_3.5_years равен salary*3.8 из request (salary забрать из request.)\r",
 							"pm.test(\"Response's qa_salary_after_1.5_year is equal to request's salary * 3.3\", function () {\r",
-							"    pm.expect(resp[\"qa_salary_after_3.5_years\"]).to.eql(+req.salary * 3.8);\r",
+							"    pm.expect(resp[\"qa_salary_after_3.5_years\"]).to.eql(req.salary * 3.8);\r",
 							"})\r",
 							"\r",
 							"// 19. Проверить, что в параметре person, 1-й элемент из u_name равен salary из request (salary забрать из request.)\r",
@@ -443,9 +440,10 @@
 							"})\r",
 							"\r",
 							"// 22. Написать цикл который выведет в консоль по порядку элементы списка из параметра person.\r",
-							"for (var i in resp.person) {\r",
+							"for (i in resp.person) {\r",
 							"    console.log(resp.person[i]);\r",
-							"}"
+							"}\r",
+							""
 						],
 						"type": "text/javascript"
 					}

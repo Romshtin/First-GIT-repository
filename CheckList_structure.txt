@@ -1,3 +1,0 @@
-Структура Чек-Листа
-
-ID,	Title, Inputs,	ER,	AR,	Status,	Bug (link)

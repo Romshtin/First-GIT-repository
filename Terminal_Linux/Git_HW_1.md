@@ -33,7 +33,7 @@ tail -f  HomeWork_1_GitBash.txt
 dt=$(date '+%d/%m/%Y %H:%M:%S')
 echo "$dt"
 ```
-=========
+***
 
 Задание *
 1) Отправить http запрос на сервер.

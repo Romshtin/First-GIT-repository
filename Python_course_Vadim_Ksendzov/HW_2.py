@@ -1,4 +1,4 @@
-# Python_2 HW_2
+# Python Homework №2
 #
 # Arithmetic
 import math

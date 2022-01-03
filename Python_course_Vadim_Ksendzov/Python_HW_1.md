@@ -4,7 +4,7 @@
 3) Создать переменную типа Float `float_number = .10`
 4) Создать переменную типа Bytes 
 ```sh
-bytes_type_1 = b'Roman'`
+bytes_type_1 = b'Roman'
 bytes_type_2 = bytes('Hello', 'UTF-8')
 bytes_type_3 = bytes([1, 2, 5, 10, 23])
 ```

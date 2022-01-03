@@ -1,6 +1,5 @@
 # Python Homework №1
 
-
 # 1) Создать переменную типа String
 string = 'Мне'
 # 2) Создать переменную типа Integer

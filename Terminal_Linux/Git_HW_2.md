@@ -59,7 +59,6 @@ new2.json ; Edit this file ;
         "age": 25,
         "pets": 1,
         "desired salary": "60000 rubles"
- 				,
 	"favourite film": "Мост в Терабитию",
 	"favourite serial": "Декстер",
 	"favourite food": "Пангасиус обжаренный в муке и яйце",

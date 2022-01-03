@@ -1,6 +1,6 @@
-#Python Homework №2
+# Python Homework №2
 
-##Arithmetic
+## Arithmetic
 import math
 1. Создать переменную item_1 типа integer `item_1 = 10`
 2. Создать переменную item_2 типа integer `item_2 = 12`
@@ -35,7 +35,7 @@ import math
 31. Создать переменную result_division_loss в которой вы найдёте остаток от деления item_1 на item_2 `result_division_loss = item_1 % item_2`
 32. Вывести result_division_loss в консоль `print('Result_division_loss =', result_division_loss)`
 ***
-##Дальше будет реализация через арифметические действия с присваиванием.
+## Дальше будет реализация через арифметические действия с присваиванием.
 33. Создать переменную item_3 и присвоить ей целое число `item_3 = 52`
 34. Прибавить 10 к item_3 с присвоением `item_3 += 10`
 35. Вывести item_3 в консоль `print('Item_3 =', item_3)`
@@ -52,7 +52,7 @@ import math
 46. Присвоить остаток от деления item_3 `item_3 %= item_3`
 47. Вывести item_3 в консоль `print('Item_3 =', item_3)`
 ***
-##Boolean
+## Boolean
 48. Создать переменную b_item_t и присвоить True `b_item_t = True`
 49. Создать переменную b_item_f и присвоить False `b_item_f = False`
 50. Создать переменную b_item_result_sum и присвоить сумму b_item_t и b_item_f `b_item_result_sum = b_item_t + b_item_f`

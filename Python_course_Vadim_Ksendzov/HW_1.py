@@ -1,4 +1,4 @@
-# Python_2. HW_1
+# Python Homework №1
 
 
 # 1) Создать переменную типа String

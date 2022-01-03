@@ -4,7 +4,10 @@
 adb shell pm list packages -f | findstr todolist (найти в системе андройда название приложения)
 adb shell pm path com.android.todolist (вывести его адрес)
 ```
-3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB `adb install -t E:\001_ToDoList-master\app\build\outputs\apk\debug\ToDoList.apk`
+3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB 
+```sh
+adb install -t E:\001_ToDoList-master\app\build\outputs\apk\debug\ToDoList.apk
+```
 4. Сделать скриншот запущенного приложения todolist и сразу скопировать на компьютер в одной команде 
 ```sh
 adb shell screencap /storage/emulated/0/DCIM/todolist.png ; adb pull /storage/emulated/0/DCIM/todolist.png C:/Users/Роман/Desktop/QA/todolist.png

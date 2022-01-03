@@ -54,24 +54,37 @@ new3.txt ; Edit this file ; Мост в Терабитию, Декстер, Па
 23. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить). Всё в формате JSON.
 ```sh
 new2.json ; Edit this file ; 
-				,
-"favourite film": "Мост в Терабитию",
-"favourite serial": "Декстер",
-"favourite food": "Пангасиус обжаренный в муке и яйце",
-"favourite time of year": "лето",
-"country to visit": "Канада"
+ {
+        "name": "Kirillov Roman Aleksandrovich",
+        "age": 25,
+        "pets": 1,
+        "desired salary": "60000 rubles"
+ 				,
+	"favourite film": "Мост в Терабитию",
+	"favourite serial": "Декстер",
+	"favourite food": "Пангасиус обжаренный в муке и яйце",
+	"favourite time of year": "лето",
+	"country to visit": "Канада"
+}
 ```
 24. Сделать Commit changes (сохранить) изменения на веб интерфейсе `Прокрутить страницу вниз ; Commit changes`
 25. Синхронизировать внешний и локальный репозитории `git pull` 
 26. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить). Всё в формате XML.
 ```sh
 new2.xml ; Edit this file ; 
-
- 	<Favourite film>Мост в Терабитию</Favourite film>
-	<Favourite serial>Декстер<Favourite serial>
-	<Favourite food>Пангасиус обжаренный в муке и яйце</Favourite food>
-	<Favourite time of year>лето</Favourite time of year>
-	<Country to visit>Канада</Country to visit>'"
+ <?xml version="1.0" encoding="UTF-8"?>
+	<root>
+		<Name>Kirillov Roman Aleksandrovich</Name>
+		<Age>25</Age>
+		<Pets>1</Pets>
+		<Desired_salary>60000 rubles</Desired_salary>
+		<Favourite film>Мост в Терабитию</Favourite film>
+		<Favourite serial>Декстер<Favourite serial>
+		<Favourite food>Пангасиус обжаренный в муке и яйце</Favourite food>
+		<Favourite time of year>лето</Favourite time of year>
+		<Country to visit>Канада</Country to visit>'"
+	</root>
+ 	
 ```
 27. Сделать Commit changes (сохранить) изменения на веб интерфейсе `Проврутить страницу вниз ; Commit changes`
 28. Синхронизировать внешний и локальный репозитории `git pull`

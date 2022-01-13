@@ -1,4 +1,5 @@
 # Charles HW Traffic capture
+# Все задания выполнить и в Rewrite, и в BreakPoint
 ## Ex_0: Сфокусироваться на ниже перечисленных запросах
 
 Protocol: http
@@ -24,8 +25,7 @@ response:
     “Str”
 ]
 ```
-### Task: Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
-### - Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
+### Task: Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 
 ***
 
@@ -50,10 +50,7 @@ response:
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
 ```
-Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
-
-⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
+### Task: Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
 
 ***
 
@@ -77,10 +74,7 @@ response:
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
 ```
-Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
-
-⁃ Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
+### Task: Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
 
 ***
 
@@ -110,9 +104,7 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 ```
-Task:
-Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
-
+### Task: 
 - Сделать через Charles так, чтобы сервер вернул 500 код.
 
 - Сделать через Charles так, чтобы сервер вернул 405 код.

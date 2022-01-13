@@ -1,5 +1,5 @@
 # Charles HW Traffic capture
-Ex_0: Сфокусироваться на ниже перечисленных запросах
+## Ex_0: Сфокусироваться на ниже перечисленных запросах
 
 Protocol: http
 IP: 162.55.220.72
@@ -7,15 +7,23 @@ Port: 5005
 
 Ex_1: 
 Method: GET
+
 EndPoint: /get_method
+
 request url params: 
+
  name: str
+ 
  age: int
+ 
 
 response: 
+
 [
+
     “Str”,
     “Str”
+    
 ]
 
 Task:

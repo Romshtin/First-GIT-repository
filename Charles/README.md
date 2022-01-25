@@ -1,6 +1,6 @@
 # Charles HW Traffic capture
-# Все задания выполнить и в Rewrite, и в BreakPoint
-## Ex_0: Сфокусироваться на ниже перечисленных запросах
+# Все задания выполнить и в Rewrite, и в BreakPoint.
+## Ex_0: Сфокусироваться на ниже перечисленных запросах.
 
 Protocol: http
 

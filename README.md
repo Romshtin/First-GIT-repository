@@ -10,11 +10,8 @@ Method: POST
 Request (RAW JSON):
 ```sh
 age: int
-
 salary: int
-
 name: str
-
 auth_token: str
 ```
 

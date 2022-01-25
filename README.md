@@ -16,7 +16,7 @@ salary: int
 
 name: str
 
-auth_token
+auth_token: str
 ```
 
 response:

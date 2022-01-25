@@ -102,3 +102,6 @@ Response
 Задание ***
 - Сделать Assertion на провекрку статус код 200
 - Сделать Assertion на провекрку 'salary': salary
+***
+## Homework_3: Нагрузочное тестирование сайта iHerb по Smoke сценариям.
+## HTTP(S) Test Script Recorder, Test Fragment, Recording Controller, Transaction Controller.

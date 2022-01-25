@@ -4,10 +4,12 @@
 ## HW_2
 http://162.55.220.72:5005/user_info
 
-request (RAW JSON)
 
-POST
 
+Method: POST
+
+request (RAW JSON):
+```sh
 age: int
 
 salary: int
@@ -15,7 +17,7 @@ salary: int
 name: str
 
 auth_token
-
+```
 
 response:
 ```sh

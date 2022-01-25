@@ -21,8 +21,8 @@ age: int
 response: 
 ```sh
 {
-    “Str”,
-    “Str”
+    "Str",
+    "Str"
 }
 ```
 ## Task: 
@@ -43,9 +43,9 @@ request form data:
 ```
 response:
 ```sh
-{'name': name,
-          'age': age,
-          'salary': salary,
+{"name": name,
+          "age": age,
+          "salary": salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
 ```

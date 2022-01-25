@@ -6,7 +6,6 @@
 http://162.55.220.72:5005/user_info
 
 Method: POST
-
 Request (RAW JSON):
 ```sh
 age: int

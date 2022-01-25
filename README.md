@@ -1,8 +1,8 @@
 # Jmeter HW
-## HW_1 Отправка запросов на семь эндпоинтов
+## HW_1: Отправка запросов на семь эндпоинтов
 ***
 ## HW_2
-
+http://162.55.220.72:5005/user_info
 request (RAW JSON)
 
 POST
@@ -28,3 +28,4 @@ response:
 ```
 ### Task
 - Достать из Respose значение из поля 'qa_salary_after_6_months' и передать в поле salary запроса http://162.55.220.72:5005/new_data
+***

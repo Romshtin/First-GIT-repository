@@ -1,5 +1,4 @@
 # Fiddler HomeWork
-***
 ## Ex_0: Отфильтровать выдачу запросов по нужному ip
 
 Protocol: http

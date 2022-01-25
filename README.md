@@ -74,7 +74,7 @@ Response:
 - Достать из Respose значение из поля age и передать в поле age запроса http://162.55.220.72:5005/get_test_user
 ***
 Задание ***
-- Изучать как работают Response Assertion.
+- Изучить как работают Response Assertion.
 - Сделать Assertion на провекрку статус код 200
 - Сделать Assertion на провекрку 'daily_food':weight * 0.012
 ***

@@ -54,7 +54,7 @@ Response:
 ## EX_3:
 http://162.55.220.72:5005/test_pet_info
 
-POST
+Method: POST
 
 Request form data:
 ```sh
@@ -77,3 +77,28 @@ Response:
 - Изучать как работают Response Assertion.
 - Сделать Assertion на провекрку статус код 200
 - Сделать Assertion на провекрку 'daily_food':weight * 0.012
+***
+ http://162.55.220.72:5005/get_test_user
+ 
+Request
+
+Method: POST
+```sh
+age: int
+salary: int
+name: str
+auth_token
+```
+Response
+```sh
+{'name': name,
+ 'age':age,
+ 'salary': salary,
+ 'family':{'children':[['Alex', 24],['Kate', 12]],
+ 'u_salary_1.5_year': salary * 4}
+  }
+```
+## Task:
+Задание ***
+- Сделать Assertion на провекрку статус код 200
+- Сделать Assertion на провекрку 'salary': salary

@@ -105,5 +105,6 @@ Response
 - Сделать Assertion на провекрку 'salary': salary
 ***
 ## Homework_3:
-- Нагрузочное тестирование сайта iHerb по Smoke сценариям.
+- Выделение эндпоинта страницы и связанных с ней запросов.
+- Нагрузочное тестирование по Smoke сценариям разных страниц одного сайта.
 ### `HTTP(S) Test Script Recorder, Test Fragment, Recording Controller, Transaction Controller`

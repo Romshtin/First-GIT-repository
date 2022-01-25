@@ -1,6 +1,5 @@
 # Jmeter Homeworks 1,2,3
 ## Homework_1: Отправка запросов на семь эндпоинтов.
-***
 ## Homework_2: Извлечение, установка и передача переменных в окружение. Проверка статус кода и значений переменных. 
 ### JSON Extractor, BeanShell Assetion, BeanShell PreProcessor, Response Assertion.
 ## EX_1:

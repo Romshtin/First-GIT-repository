@@ -3,7 +3,7 @@
 ## Homework_2: Извлечение, установка и передача переменных в окружение. Проверка статус кода и значений переменных. 
 ### JSON Extractor, BeanShell Assetion, BeanShell PreProcessor, Response Assertion.
 ## EX_1:
-http://162.55.220.72:5005/user_info
+URL: http://162.55.220.72:5005/user_info
 
 Method: POST
 
@@ -30,7 +30,7 @@ Response:
 - Достать из Respose значение из поля 'qa_salary_after_6_months' и передать в поле salary запроса http://162.55.220.72:5005/new_data
 ***
 ## EX_2:
- http://162.55.220.72:5005/new_data
+URL: http://162.55.220.72:5005/new_data
 
 Method: POST
 
@@ -51,7 +51,7 @@ Response:
 - Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/test_pets_info
 ***
 ## EX_3:
-http://162.55.220.72:5005/test_pet_info
+URL: http://162.55.220.72:5005/test_pet_info
 
 Method: POST
 
@@ -77,11 +77,11 @@ Response:
 - Сделать Assertion на провекрку статус код 200
 - Сделать Assertion на провекрку 'daily_food':weight * 0.012
 ***
- http://162.55.220.72:5005/get_test_user
+URL: http://162.55.220.72:5005/get_test_user
  
-Request
-
 Method: POST
+
+Request form data:
 ```sh
 age: int
 salary: int

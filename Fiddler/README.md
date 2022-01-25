@@ -1,4 +1,4 @@
-# Fiddler HomeWork
+# Fiddler Homework
 ## Ex_0: Отфильтровать выдачу запросов по нужному ip
 
 Protocol: http
@@ -13,11 +13,10 @@ Method: GET
 EndPoint: /get_method
 
 request url params: 
-
+```sh
  name: str
- 
  age: int
-
+```
 response: 
 ```sh
 [
@@ -36,13 +35,11 @@ Method: POST
 EndPoint: /user_info_3
 
 request form data: 
-
+```sh
  name: str
- 
  age: int
- 
  salary: int
-
+```
 response: 
 ```sh
 {'name': name,
@@ -68,13 +65,11 @@ Method: GET
 EndPoint: /object_info_1
 
 request url params: 
-
+```sh
  name: str
- 
  age: int
- 
  weight: int
-
+```
 response: 
 ```sh
 {'name': name,
@@ -99,13 +94,11 @@ Method: GET
 EndPoint: /object_info_3
 
 request url params: 
-
+```sh
  name: str
- 
  age: int
- 
  salary: int
-
+```
 response: 
 ```sh
 {'name': name,
@@ -135,13 +128,11 @@ Method: GET
 EndPoint: /object_info_4
 
 request url params: 
-
+```sh
  name: str
- 
  age: int
- 
  salary: int
-
+```
 response: 
 ```sh
 {'name': name,
@@ -165,13 +156,11 @@ Method: POST
 EndPoint: /user_info_2
 
 request form data: 
-
+```sh
  name: str
- 
  age: int
- 
  salary: int
- 
+ ```
  response: 
  ```sh
 {'start_qa_salary': salary,

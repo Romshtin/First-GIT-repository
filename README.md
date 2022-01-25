@@ -2,7 +2,7 @@
 ## Homework_1: Отправка запросов на семь эндпоинтов.
 ***
 ## Homework_2: Извлечение, установка и передача переменных в окружение. Проверка статус кода и значений переменных. 
-## JSON Extractor, BeanShell Assetion, BeanShell PreProcessor, Response Assertion.
+### JSON Extractor, BeanShell Assetion, BeanShell PreProcessor, Response Assertion.
 ## EX_1:
 http://162.55.220.72:5005/user_info
 

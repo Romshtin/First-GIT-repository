@@ -1,6 +1,8 @@
 # Charles HW Traffic capture
-## Homework_1: [Установка сертификата](https://drive.google.com/file/d/1FmFzTje3b5h-WFp0bJglJ5HtA_FO-soQ/view?usp=sharing)
-## Homework_2: Перехват и подмена трафика. Все задания выполнить и в Rewrite, и в BreakPoint.
+## Homework_1: 
+- [Установка сертификата](https://drive.google.com/file/d/1FmFzTje3b5h-WFp0bJglJ5HtA_FO-soQ/view?usp=sharing)
+## Homework_2: 
+- Перехват и подмена трафика. Все задания выполнить и в Rewrite, и в BreakPoint.
 ## Ex_0: 
 - Сфокусироваться на ниже перечисленных запросах.
 

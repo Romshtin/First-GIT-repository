@@ -1,8 +1,6 @@
 # Jmeter Homeworks 1,2,3
-## Homework_1: 
-- Отправка запросов на семь эндпоинтов.
-## Homework_2: 
-- Извлечение, установка и передача переменных в окружение. Проверка статус кода и значений переменных. 
+## Homework_1: Отправка запросов на семь эндпоинтов.
+## Homework_2: Извлечение, установка и передача переменных в окружение. Проверка статус кода и значений переменных. 
 ### `JSON Extractor, BeanShell Assetion, BeanShell PreProcessor, Response Assertion`
 ## EX_1:
 URL: http://162.55.220.72:5005/user_info
@@ -104,7 +102,5 @@ Response
 - Сделать Assertion на провекрку статус код 200
 - Сделать Assertion на провекрку 'salary': salary
 ***
-## Homework_3:
-- Выделение эндпоинта страницы и связанных с ней запросов.
-- Нагрузочное тестирование по Smoke сценариям разных страниц одного сайта.
+## Homework_3: Нагрузочное тестирование сайта iHerb по Smoke сценариям.
 ### `HTTP(S) Test Script Recorder, Test Fragment, Recording Controller, Transaction Controller`

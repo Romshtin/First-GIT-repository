@@ -1,5 +1,5 @@
 # Charles HW Traffic capture
-## Homework_1: [Установка сертификата](https://drive.google.com/file/d/1FmFzTje3b5h-WFp0bJglJ5HtA_FO-soQ/view?usp=sharing)
+## Homework_1: [Установка сертификата.](https://drive.google.com/file/d/1FmFzTje3b5h-WFp0bJglJ5HtA_FO-soQ/view?usp=sharing)
 ## Homework_2: Перехват и подмена трафика. Все задания выполнить и в Rewrite, и в BreakPoint.
 ## Ex_0: 
 - Сфокусироваться на ниже перечисленных запросах.
@@ -100,7 +100,7 @@ response:
           }
 ```
 ## Task: 
-- Сделать через Charles так, чтобы сервер вернул 500 код.
+- Сделать через Charles так, чтобы сервер вернул 500 код;
 - Сделать через Charles так, чтобы сервер вернул 405 код.
 
 ***
@@ -124,9 +124,9 @@ response:
 
 ```
 ## Task:
-- Сделать через Charles так, чтобы сервер вернул 405 ошибку.
-- Подменить salary в request
-- Подменить (salary * 2) в response
+- Сделать через Charles так, чтобы сервер вернул 405 ошибку;
+- Подменить salary в request;
+- Подменить (salary * 2) в response.
 
 ***
 
@@ -154,5 +154,5 @@ response:
           }
 ```
 ## Task:
-- Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
-- Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+- Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month;
+- Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response.
